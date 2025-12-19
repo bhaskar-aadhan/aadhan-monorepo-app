@@ -1,0 +1,20 @@
+{
+    "name": "@repo/assets",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "exports": {
+        "./robots.txt": "./public/robots.txt",
+        "./sitemap.xml": "./public/sitemap.xml",
+        "./apple-app-site-association": "./public/apple-app-site-association",
+        "./assetlinks.json": "./public/.well-known/assetlinks.json",
+        "./manifest.json": "./public/manifest.json",
+        "./config": "./configs/index.ts",
+        "./public/*": "./public/*",
+        "./configs/*": "./configs/*"
+    },
+    "files": [
+        "public",
+        "configs"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "@repo/utils",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts",
+        "./string": "./src/string.ts",
+        "./array": "./src/array.ts",
+        "./object": "./src/object.ts",
+        "./date": "./src/date.ts",
+        "./validation": "./src/validation.ts",
+        "./format": "./src/format.ts"
+    },
+    "scripts": {
+        "check-types": "tsc --noEmit",
+        "lint": "eslint . --max-warnings 0"
+    },
+    "dependencies": {
+        "dayjs": "^1.11.13",
+        "@repo/assets": "workspace:*"
+    },
+    "devDependencies": {
+        "@repo/eslint-config": "workspace:*",
+        "@repo/typescript-config": "workspace:*",
+        "eslint": "^9.32.0",
+        "typescript": "5.9.2"
+    }
+}

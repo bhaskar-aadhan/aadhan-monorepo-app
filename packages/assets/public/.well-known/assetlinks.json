@@ -1,0 +1,23 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.aadhan.hixic",
+      "sha256_cert_fingerprints": [
+        "7B:CF:C3:F7:F1:DE:EA:DA:3B:C1:C5:62:7D:E1:6F:5C:DA:14:7D:53:DA:12:D0:AF:1C:34:E0:C3:D1:A0:57:97",
+        "FE:77:A2:69:E8:79:56:7E:86:42:AF:9A:D7:FC:F1:4C:64:17:5F:EF:56:6F:86:C2:F7:B9:97:75:DA:4C:89:2D",
+        "50:11:B6:FC:E0:DD:5E:A0:97:4E:3A:FF:C4:27:D2:5C:B3:D3:AA:D3:7C:10:65:2C:B9:F5:B9:9F:1D:8A:A4:C6",
+        "53:06:F4:50:66:0B:21:3C:56:3A:8F:86:D4:F0:2E:1C:D0:EC:7B:E4:E8:74:F8:79:37:BC:84:2F:43:E5:B5:9B",
+        "07:B9:28:3A:52:D6:30:77:D8:4A:9C:A0:70:CB:68:8D:87:8E:C4:C2:93:A5:59:BA:F2:02:D4:62:94:D0:3F:20",
+        "29:99:FE:84:FE:53:67:CC:1E:B9:DE:7C:20:68:1A:4C:45:27:D0:8E:BF:AC:E8:8E:B6:E6:F9:CC:B3:83:D0:0F",
+        "F1:F6:2C:AB:37:ED:C8:D7:E2:00:97:79:91:9E:C8:9A:E2:EF:FA:08:BC:52:89:17:94:53:D6:48:86:5D:A7:37",
+        "36:89:59:E2:B2:D1:55:E2:8E:E5:64:97:ED:74:9E:F4:09:5A:9F:AF:EF:CC:E4:87:4E:B1:F4:D1:F6:C2:9C:60",
+        "D6:1E:23:D1:1A:EB:97:09:05:EB:F1:12:F2:F2:5A:D0:02:DD:40:B6:E1:63:A4:C9:2C:CD:BF:56:CD:E2:2E:38",
+        "A6:A6:F5:A9:42:39:8B:46:CA:9D:F4:D2:A1:6A:71:49:5C:0F:14:89:5C:30:D2:1E:56:6A:D5:72:45:26:81:88"
+      ]
+    }
+  }
+]
