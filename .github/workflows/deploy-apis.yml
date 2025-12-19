@@ -3,8 +3,7 @@ name: Deploy APIs to Cloudflare Workers
 on:
   push:
     branches:
-      - dev
-      - production
+      - main
     paths:
       - 'apps/apis/**'
       - 'packages/**'
