@@ -6,23 +6,4 @@
     "nodejs_compat",
     "nodejs_compat_populate_process_env"
   ]
-  // ,
-  // "vars": {
-  //   "FASTPIX_STREAM_BASE_URL": "https://stream.fastpix.io",
-  //   "R2_BASE_URL": "https://static.indusapps.in"
-  // },
-  // "env": {
-  //   "staging": {
-  //     "vars": {
-  //       "FASTPIX_STREAM_BASE_URL": "https://stream.fastpix.io",
-  //       "R2_BASE_URL": "https://static.indusapps.in"
-  //     }
-  //   },
-  //   "production": {
-  //     "vars": {
-  //       "FASTPIX_STREAM_BASE_URL": "https://stream.fastpix.io",
-  //       "R2_BASE_URL": "https://static.indusapps.in"
-  //     }
-  //   }
-  // }
 }

@@ -2,6 +2,7 @@ import type { Route } from "./+types/home";
 import type { ApiResponse } from "@repo/types/common";
 import { formatDate } from "@repo/utils/date";
 import Navbar from "~/components/Navbar";
+import Footer from "~/components/Footer";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -18,6 +19,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
   return (
     <div>
       <Navbar />
+      <Footer />
     </div>
   );
 }
