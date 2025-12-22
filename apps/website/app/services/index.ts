@@ -1,5 +1,5 @@
 import { channelPageData, type ChannelPageDataTypes } from '../../constants';
-import { FASTPIX_STREAM_BASE_URL, R2_BASE_URL } from '../../configs';
+import { FASTPIX_STREAM_BASE_URL, R2_BASE_URL } from '../../configs/index.config';
 
 const apiToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNza2V5IjoiNTAxMTQyIiwiZXhwIjoxNjkyNzEwMjE3fQ.YAkRGWBlXdwYLnsW2fiG_y9889ADzjD30OEzNg3or40'
 

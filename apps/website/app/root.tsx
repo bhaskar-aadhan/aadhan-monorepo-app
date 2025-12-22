@@ -5,8 +5,9 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation
 } from "react-router";
-
+import MainLayout from "./components/MainLayout";
 import type { Route } from "./+types/root";
 import "./app.css";
 
@@ -20,7 +21,7 @@ export const links: Route.LinksFunction = () => [
   {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-  },
+  }
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -42,7 +43,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  const location = useLocation();
+  return <MainLayout pathname={location.pathname}><Outlet /></MainLayout>;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

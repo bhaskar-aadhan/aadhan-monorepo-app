@@ -6,6 +6,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --background-color: #FFFFFF;
   --color-gray-muted: #D1D1D1;
+  --font-inter: "Inter", sans-serif;
 }
 
 html,

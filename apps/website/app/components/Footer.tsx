@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router'
 import ImageRender from '~/shared/ImageRender'
 import { Mail, Phone, MapPin } from 'lucide-react';
+import RenderTextWithBreaks from "@repo/ui/components/render-with-breaks";
+import { companyMetaData } from '../../configs/index.config';
 
 const Footer = () => {
     return (
@@ -48,8 +50,11 @@ const Footer = () => {
                                         <MapPin className="h-4 w-4 shrink-0" />
                                     </div>
                                     <div>
-                                        Aadhan Media Pvt Ltd2nd Floor, <br /> Park View EnclaveJubilee Hills, <br />Hyderabad,
-                                        Telangana 500033
+                                        <RenderTextWithBreaks
+                                            text={companyMetaData.branches.hyderabad.withBreaks}
+                                        />
+                                        {/* Aadhan Media Pvt Ltd2nd Floor, <br /> Park View EnclaveJubilee Hills, <br />Hyderabad,
+                                        Telangana 500033 */}
                                     </div>
                                 </address>
                             </div>
@@ -59,8 +64,9 @@ const Footer = () => {
                                         <MapPin className="h-4 w-4 shrink-0" />
                                     </div>
                                     <div>
-                                        Aadhan Media Pvt Ltd2nd Floor, <br /> Park View EnclaveJubilee Hills, <br />Hyderabad,
-                                        Telangana 500033
+                                        <RenderTextWithBreaks
+                                            text={companyMetaData.branches.chennai.withBreaks}
+                                        />
                                     </div>
                                 </address>
                             </div>

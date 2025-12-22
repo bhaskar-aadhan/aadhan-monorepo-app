@@ -1,4 +1,4 @@
-import { ChanelPageTypes, ContactOverviewSectionTypes } from '~/types';
+import type { ChanelPageTypes, ContactOverviewSectionTypes } from '@repo/types';
 import { RiNewspaperFill } from "react-icons/ri";
 
 export const socialCountCardsData = [

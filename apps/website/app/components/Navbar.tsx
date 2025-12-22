@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router';
 import type { IconType } from 'react-icons';
 import ImageRender from '~/shared/ImageRender';
-import { tabsData } from '../../configs/tabs';
+import { tabsData } from '../../configs/index.config';
 import { NativeSelect, NativeSelectOption } from '@repo/ui';
 
 interface TabData {
