@@ -11,17 +11,17 @@ export const companyMetaData = {
         {
             number: "9876543210",
             withCode: "+91 9876543210",
-            name: "Info"
+            name: "contact"
         }
     ],
     emailIds: [
         {
             mail: "info@aadhan.in",
-            name: "Info"
+            name: "info"
         },
         {
             mail: "careers@aadhan.in",
-            name: "Careers"
+            name: "careers"
         }
     ],
     branches: {

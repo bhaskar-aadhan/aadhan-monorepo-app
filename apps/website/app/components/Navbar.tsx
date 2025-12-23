@@ -17,7 +17,7 @@ export default function Navbar() {
     const navigate = useNavigate();
 
     return (
-        <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-[883px] px-4">
+        <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-5xl px-4">
             <div className="bg-white rounded-[20px] border-t border-l border-r border-black border-b-4 border-b-black shadow-[4px_4px_4px_rgba(0,0,0,0.25)] h-[72px] flex items-center justify-between px-8">
                 {/* Logo */}
                 <Link to="/" className="flex items-center">

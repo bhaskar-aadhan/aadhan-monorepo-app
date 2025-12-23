@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const useIntersection = (
-    ref: React.RefObject<HTMLElement>,
+const useIntersection = <T extends HTMLElement = HTMLElement>(
+    ref: React.RefObject<T>,
     threshold: number = 0.5
 ) => {
     const [isInView, setIsInView] = useState<boolean>(false);

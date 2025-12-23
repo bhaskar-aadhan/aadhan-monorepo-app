@@ -6,6 +6,7 @@ import RenderTextWithBreaks from "@repo/ui/components/render-with-breaks";
 import { companyMetaData } from '../../configs/index.config';
 
 const Footer = () => {
+    const contactNumbber = companyMetaData.mobileNumbers?.find((item) => item.name === "contact")
     return (
         <footer className="bg-[#191A23] text-white rounded-t-[45px] mt-20  px-8 py-16 pb-0 mx-2 flex flex-col gap-5">
             <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-8 lg:gap-10'>
@@ -36,11 +37,11 @@ const Footer = () => {
                             </div>
                             <div>
                                 <a
-                                    href="tel:+919866555701"
+                                    href={`tel:+91${contactNumbber?.number}`}
                                     className="hover:opacity-80 transition-opacity flex items-center gap-2"
                                 >
                                     <Phone className="h-4 w-4" />
-                                    <span>+91 98665 55701</span>
+                                    <span>{contactNumbber?.withCode}</span>
                                 </a>
                             </div>
                             {/* Address Section */}
