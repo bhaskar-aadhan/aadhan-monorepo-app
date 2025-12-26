@@ -1,3 +1,15 @@
+export * from './articles/index'
+export * from './jd-form/index'
+export * from './job/index'
+export * from './jobs/index'
+export * from './news-feed/index'
+
+export * from './articles/types'
+export * from './jd-form/types'
+export * from './job/types'
+export * from './jobs/types'
+export * from './news-feed/types'
+
 
 export type ChannelMainSectionTypes = {
     title: string;
@@ -100,4 +112,3 @@ export type VideoPlayerOptionsTypes = {
     muted?: boolean;
     loop?: boolean;
 }
-    

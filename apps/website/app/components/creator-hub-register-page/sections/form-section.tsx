@@ -1,15 +1,14 @@
 import React from 'react'
-import { useNavigate, Link } from '@remix-run/react';
-import { FieldErrors, useForm } from 'react-hook-form';
+import { useNavigate, Link } from 'react-router';
+import { type FieldErrors, useForm } from 'react-hook-form';
 import { useMutation } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
-import { verifyInfluencer } from '~/entity/influencer-form';
-import { Spinner } from '@nextui-org/react';
+import { verifyInfluencer } from '../entity';
 import { IoClose } from "react-icons/io5";
-import { influencerFormSchema, InfluencerFormtypes } from '~/entity/influencer-form/schema';
+import { influencerFormSchema, type InfluencerFormtypes } from '../entity/schema';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { defaultValues } from '~/entity/influencer-form/defaults';
-import { toast } from 'sonner';
+import { defaultValues } from '../entity/defaults';
+import { toast, Spinner } from '@repo/ui';
 
 type FormSectionProps = {
     apiUrl: string;
