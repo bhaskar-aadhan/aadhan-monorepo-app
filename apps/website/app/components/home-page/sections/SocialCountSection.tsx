@@ -40,8 +40,7 @@ const SocialCountSection = () => {
                     Welcome to Aadhan Media — <br /> a digital news studio creating original content that   <br /> entertains and informs millions across the globe. <br /> Through creativity, innovation, and a positive outlook, <br /> we empower brands, creators, and talent to <br /> connect and thrive in the digital era. <br />
                 </p> */}
                 <p className='max-w-96 mx-auto'>
-                    Welcome to Aadhan Media — a digital news studio creating original content that   entertains and informs millions across the globe. Through creativity, innovation, and a positive outlook, we empower brands, creators, and talent to connect and thrive in the digital era.
-                </p>
+                    At Aadhan Media, we create powerful stories that entertain and inspire millions. Driven by creativity and innovation, we elevate voices across the globe.                </p>
                 <div className='flex flex-col gap-10 items-center shadow-xl w-fit mx-auto pt-5 px-10 rounded-2xl'>
                     <div>
                         <Button href='https://aadhan.page.link/xBZc' text="Download Now" className='text-base lg:text-3xl font-medium px-4' />
@@ -74,12 +73,12 @@ const SocialCountSection = () => {
 const CountCard = ({ count, text, subtext, outertext }: CountCardTypes) => {
     return (
         <div className='count_card_wrappper w-fit'>
-            <div className='bg_gradient text-white flex gap-2 ps-3 pe-8 py-1 rounded-full overflow-hidden'>
-                <div className='text-6xl md:text-8xl font-bold translate-y-4 lg:translate-y-5'>
+            <div className='text-primary-main border-shadow flex gap-2 ps-3 pe-8 py-1 rounded-full overflow-hidden'>
+                <div className='text-6xl md:text-8xl font-bold'>
                     {count}
                 </div>
-                <div className='flex flex-col justify-start items-start translate-y-4 lg:translate-y-7'>
-                    <span className='text-xs lg:text-base italic font-semibold'>
+                <div className='flex flex-col justify-center items-start'>
+                    <span className='text-xs lg:text-base italic font-semibold mb-1'>
                         {text?.toUpperCase()?.split(',')?.map((t: string) => {
                             const key = getUniqueKey()
                             return (
@@ -89,10 +88,10 @@ const CountCard = ({ count, text, subtext, outertext }: CountCardTypes) => {
                             )
                         })}
                     </span>
-                    <span className='text-xxs md:text-xs text-teal-100'>{subtext}</span>
+                    <span className='text-xxs md:text-xs'>{subtext}</span>
                 </div>
             </div>
-            <p className='text-transparent bg_gradient bg-clip-text text-right text-xxs md:text-xs mt-1 me-3'>{outertext}</p>
+            <p className='text-xxs md:text-xs'>{outertext}</p>
         </div>
     )
 }

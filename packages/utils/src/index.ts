@@ -20,12 +20,11 @@ export const getAssetUrl = (
     assetType: 'icons' | 'images' | 'videos' | 'fonts' = 'images',
     type: 'stream' | 'static' = 'static',
 ) => {
-    if (type === 'stream') {
-        return `${streamUrl}/assets/${assetType}/${assetPath}`;
+    if (type === 'stream' && assetType === 'videos') {
+        return `${streamUrl}/${assetPath}`;
     }
     return `/assets/${assetType}/${assetPath}`;
 };
-
 
 export const getUniqueKey = () => nanoid(8);
 

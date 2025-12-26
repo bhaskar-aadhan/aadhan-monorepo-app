@@ -93,3 +93,11 @@ export type JobsFilterTypes = {
     page: string;
     perPage: string
 }
+
+export type VideoPlayerOptionsTypes = {
+    controls?: boolean;
+    autoPlay?: boolean;
+    muted?: boolean;
+    loop?: boolean;
+}
+    

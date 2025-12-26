@@ -13,7 +13,7 @@ const Section: React.FC<SectionProps> = ({
     isStack = true
 }) => {
     return (
-        <div className={cn(`${isStack ? 'stack_layout' : ''}  flex flex-col gap-16`, className)}>
+        <div className={cn(`${isStack ? 'stack_layout' : ''} px-8 py-20 flex flex-col gap-16`, className)}>
             {children}
         </div>
     )

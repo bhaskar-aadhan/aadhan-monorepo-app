@@ -1005,22 +1005,22 @@ export const CreatorWhatWeDoCardData = [
     {
         title: "Content Strategy",
         description: "What should we be creating?",
-        icon: "/assets/images/creator-hub/what-we-do-1.svg"
+        icon: "creator-hub/what-we-do-1.svg"
     },
     {
         title: "Distribution Strategy",
         description: "Where should the content live and how do the platforms feed off of each other? ",
-        icon: "/assets/images/creator-hub/what-we-do-2.svg"
+        icon: "creator-hub/what-we-do-2.svg"
     },
     {
         title: "Financing",
         description: "C-Hub funding startup costs and/or supporting an external raise.",
-        icon: "/assets/images/creator-hub/what-we-do-3.svg"
+        icon: "creator-hub/what-we-do-3.svg"
     },
     {
         title: "Editorial Support",
         description: "Staffing up shows and daily production.",
-        icon: "/assets/images/creator-hub/what-we-do-4.svg"
+        icon: "creator-hub/what-we-do-4.svg"
     }
 ]
 
@@ -1028,22 +1028,22 @@ export const CreatorWhatWeDoCardSupportData = [
     {
         title: "Back Office",
         description: "Billing, collections, legal, finance, payroll.",
-        icon: "/assets/images/creator-hub/support/support-1.svg"
+        icon: "creator-hub/support/support-1.svg"
     },
     {
         title: "Social Strategy",
         description: "SMEs in each platform to work with the dedicated editorial team.",
-        icon: "/assets/images/creator-hub/support/support-2.svg"
+        icon: "creator-hub/support/support-2.svg"
     },
     {
         title: "Growth Marketing",
         description: "Platform-specific growth strategy development plus opportunities within the C-Hub client network.",
-        icon: "/assets/images/creator-hub/support/support-3.svg"
+        icon: "creator-hub/support/support-3.svg"
     },
     {
         title: "Production Support",
         description: "Engineering, studio builds, studio/control room staffing, and ongoing ops management.",
-        icon: "/assets/images/creator-hub/support/support-4.svg"
+        icon: "creator-hub/support/support-4.svg"
     }
 ]
 
@@ -1051,16 +1051,16 @@ export const CreatorWhatWeDoCardExtraFeaturesData = [
     {
         title: "Live Events",
         description: "Live and virtual events.",
-        icon: "/assets/images/creator-hub/extra-features/efeatures-1.svg"
+        icon: "creator-hub/extra-features/efeatures-1.svg"
     },
     {
         title: "Business Operations",
         description: "Shared or dedicated GM/CEO plus IT and marketing roles (depending on show size).",
-        icon: "/assets/images/creator-hub/extra-features/efeatures-2.svg"
+        icon: "creator-hub/extra-features/efeatures-2.svg"
     },
     {
         title: "Subscriptions",
         description: "Strategy, launch, marketing, app builds, ongoing support and management. ",
-        icon: "/assets/images/creator-hub/extra-features/efeatures-3.svg"
+        icon: "creator-hub/extra-features/efeatures-3.svg"
     }
 ]

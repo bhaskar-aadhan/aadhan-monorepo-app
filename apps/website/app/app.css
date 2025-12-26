@@ -16,6 +16,9 @@
   --color-orange: #FF6B00;
   --color-orange-light: #FFA500;
 
+  --color-primary-main: #000000;
+  --color-primary-light: #FFFFFF;
+
   /* Dark theme colors */
   --color-dark-100: #1a1a1a;
   --color-dark-200: #2a2a2a;
@@ -34,6 +37,15 @@
 
   /* Custom easing */
   --ease-soft-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Custom height */
+  --height-xl: 380px;
+
+  /* Custom background images */
+  --background-image-iphone-mock: url("/assets/images/creator-hub/aadhan-app-iphone-mock.png");
+  --background-image-lines: url("/assets/images/download-bg.svg");
+  --background-image-aadhan: url("/assets/images/aadhan-logo.svg");
+  --background-image-creator-hub: url("/assets/images/creator-hub/creater-hub-main.svg");
 }
 
 html,
@@ -159,6 +171,10 @@ body {
 }
 
 @layer utilities {
+  .border-shadow {
+    @apply border border-black border-b-4 border-b-black shadow-[4px_4px_4px_rgba(0,0,0,0.25)];
+  }
+
   .floating-toolbar {
     @apply flex w-full min-w-max items-center justify-center gap-2 rounded-lg bg-dark-350 p-1.5 shadow-xl;
   }

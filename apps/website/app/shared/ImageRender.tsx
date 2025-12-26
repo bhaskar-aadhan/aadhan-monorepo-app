@@ -25,7 +25,7 @@ const ImageRender: React.FC<props> = ({
     return (
         <img
             src={imgUrl}
-            className={cn('w-24 h-24 object-contain', className)}
+            className={cn('w-auto h-auto object-contain', className)}
             alt={alt}
             width={width}
             height={height}
